@@ -21,7 +21,9 @@ Puedes usar este repositorio como tu punto de despliegue de tu proyecto backend.
 
 * Por último, presiona **`Create codespace on master`**. Esto abrirá el proyecto en una interfaz gráfica de Visual Studio Code e instalará todas las herramientas necesarias para desarrollar con Move.
 
-## Configuración inicial para despliegue en testnet
+# Puedes saltarte hasta el fondeo de la cuenta. 
+## No es necesario hacer esta parte ya que se hace automaticamente al abrir el codespaces, pero igual te dejamos el procedimiento por si quieres repetirlo en otro entorno: 
+## Configuración inicial para despliegue en testnet 
 
 Puedes hacer esto ejecutando los siguientes comandos en tu terminal:
 ```sh
@@ -153,9 +155,11 @@ Como resultado veremos la siguiente pestaña, donde veremos un resumen de las tr
 ![alt text](imagenes/bloque.png)
 
 ## Despliegue en mainnet 
-### Cambiando de entorno
+### Cambiando de entorno 
+
 El primer paso para el despligue en mainnet es especificar la red en la que ahora queremos trabajar, para ello es necesario ejecutar los siguientes comandos:
 
+(SALTARSE AL SIGUIENTE COMANDO; No es necesario agregarlo, ya que se agrega automaticamente al inicializar el codespaces).
 ```sh
 sui client new-env --alias mainnet --rpc https://fullnode.mainnet.sui.io:443
 ```
